@@ -9,7 +9,8 @@ const WhyDensityMatters: React.FC = () => {
             date="October 22, 2023"
             category="Science Explained"
             currentSlug="/blog/why-density-matters"
-            imageUrl="https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/1316897/pexels-photo-1316897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="Oil floating on top of water in a glass, demonstrating the concept of density."
         >
             <p>
                 When you try to convert milligrams (mg) to milliliters (ml), you'll quickly realize it's not like converting inches to centimeters. There isn't a single, fixed number you can use to multiply or divide. The reason? You're comparing apples and oranges—or more accurately, mass and volume. The secret ingredient that makes this conversion possible is <strong>density</strong>.
@@ -20,7 +21,7 @@ const WhyDensityMatters: React.FC = () => {
                 In simple terms, density is a measure of how tightly packed the "stuff" (mass) is within a given space (volume). A substance with high density has a lot of mass crammed into a small volume. A substance with low density has less mass in that same amount of volume.
             </p>
             <p>
-                The classic example is a block of lead versus a block of wood of the same size. The lead is much heavier because its atoms are packed together more tightly—it is denser. Our primary <Link to="/">MG to ML Calculator</Link> automates this entire process, but understanding the science is key.
+                The classic example is a block of lead versus a block of wood of the same size. The lead is much heavier because its atoms are packed together more tightly—it is denser. Our <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> automates this entire process, but understanding the science is key.
             </p>
             <p>
                 Scientifically, density is calculated with the formula:

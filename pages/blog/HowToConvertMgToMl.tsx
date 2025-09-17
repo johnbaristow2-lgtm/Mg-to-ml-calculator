@@ -9,7 +9,8 @@ const HowToConvertMgToMl: React.FC = () => {
             date="October 26, 2023"
             category="Guides"
             currentSlug="/blog/how-to-convert-mg-to-ml"
-            imageUrl="https://images.pexels.com/photos/7144216/pexels-photo-7144216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/4047146/pexels-photo-4047146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A collection of laboratory beakers and flasks used for measuring liquids."
         >
             <p>
                 Have you ever found yourself staring at a recipe that calls for milligrams (mg) of an oil, or a science experiment requiring a precise volume in milliliters (ml)? The conversion between mass (mg) and volume (ml) is a common point of confusion because it’s not a simple, one-to-one swap. But don't worry—it's easier than you think once you understand the key principle: <strong>density</strong>. This guide will walk you through the entire process, step-by-step.
@@ -49,7 +50,7 @@ const HowToConvertMgToMl: React.FC = () => {
                 <li><strong>For Cooking:</strong> Olive oil has a density of about 918 mg/ml. Honey is much denser at ~1420 mg/ml.</li>
                 <li><strong>For Medicine:</strong> Liquid medications have their concentration (which functions as density for this calculation) printed on the label, such as "250 mg / 5 ml". This means its density is 50 mg/ml.</li>
             </ul>
-            <p>If you don't know the density, you cannot convert accurately. Our <Link to="/">main MG to ML Calculator</Link> has a built-in list for common substances.</p>
+            <p>If you don't know the density, you cannot convert accurately. Our <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> has a built-in list for common substances.</p>
 
             <h3>Step 2: Note Down Your Mass in Milligrams (mg)</h3>
             <p>This is the value you want to convert. For our example, let's say you need to find the volume of <strong>500 mg of olive oil</strong>.</p>

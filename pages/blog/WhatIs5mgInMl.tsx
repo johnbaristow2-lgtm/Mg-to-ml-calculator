@@ -9,7 +9,8 @@ const WhatIs5mgInMl: React.FC = () => {
             date="November 2, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-5mg-in-ml"
-            imageUrl="https://images.pexels.com/photos/54123/pexels-photo-54123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A scientist using a pipette to transfer a small amount of blue liquid to a test tube."
         >
             <p>
                 The question "What is 5 mg in mL?" is a common one, whether you're working with a recipe, a scientific formula, or a medical supplement. Just like with the question of <Link to="/blog/what-is-1mg-in-ml">converting 1 mg to mL</Link>, the answer is not a single number. It all comes down to the <strong>density</strong> of the substance you are measuring.
@@ -79,7 +80,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 Remembering the density of every substance is impossible, and performing manual calculations can lead to errors. To ensure speed and accuracy, it's always best to use a specialized tool.
             </p>
             <p>
-                Our main <Link to="/">MG to ML Calculator</Link> is designed for this exact purpose. It has a built-in list of common substances and their densities, so you can get an instant and accurate conversion without any of the hassle.
+                Our <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is designed for this exact purpose. It has a built-in list of common substances and their densities, so you can get an instant and accurate conversion without any of the hassle.
             </p>
 
         </BlogPostLayout>

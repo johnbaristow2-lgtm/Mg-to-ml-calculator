@@ -9,7 +9,8 @@ const WhatIs1mgInMl: React.FC = () => {
             date="November 5, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-1mg-in-ml"
-            imageUrl="https://images.pexels.com/photos/3764563/pexels-photo-3764563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/37351/glass-beaker-beaker-lab-research.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A glass beaker in a science lab, representing precise measurement."
         >
             <p>
                 It’s one of the most frequently asked questions in the world of measurement conversions: "What is 1 mg to mL?" The answer, which might be surprising, is: <strong>it depends entirely on the substance you are measuring.</strong> There is no single, universal answer.
@@ -83,7 +84,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 As demonstrated, the volume of 1 mg changes with every substance. There is no shortcut. For accurate and instant results, the best approach is to use a reliable tool.
             </p>
             <p>
-                Our interactive <Link to="/">MG to ML Calculator</Link> allows you to select your substance or enter a custom density, removing any guesswork and ensuring your conversions are precise every time. For other common questions, you might find our article on <Link to="/blog/what-is-5mg-in-ml">converting 5mg to ml</Link> useful as well.
+                Our interactive <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> allows you to select your substance or enter a custom density, removing any guesswork and ensuring your conversions are precise every time. For other common questions, you might find our article on <Link to="/blog/what-is-5mg-in-ml">converting 5mg to ml</Link> useful as well.
             </p>
         </BlogPostLayout>
     );

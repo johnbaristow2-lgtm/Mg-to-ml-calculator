@@ -8,6 +8,7 @@ interface Article {
   category: string;
   slug: string;
   imageUrl: string;
+  altText: string;
 }
 
 const articles: Article[] = [
@@ -17,7 +18,8 @@ const articles: Article[] = [
     date: 'November 5, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-1mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/3764563/pexels-photo-3764563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/37351/glass-beaker-beaker-lab-research.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A glass beaker in a science lab, representing precise measurement.',
   },
   {
     title: 'How many mL is 400 mg?',
@@ -25,7 +27,8 @@ const articles: Article[] = [
     date: 'November 3, 2023',
     category: 'Common Questions',
     slug: '/blog/how-many-ml-is-400mg',
-    imageUrl: 'https://images.pexels.com/photos/3951378/pexels-photo-3951378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/8431835/pexels-photo-8431835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A digital scale accurately measuring a white powder, illustrating mass measurement.',
   },
    {
     title: 'What is 5 mg in mL?',
@@ -33,7 +36,8 @@ const articles: Article[] = [
     date: 'November 2, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-5mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/54123/pexels-photo-54123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A scientist using a pipette to transfer a small amount of blue liquid to a test tube.',
   },
   {
     title: 'How much is 20 mg in a mL syringe?',
@@ -41,7 +45,8 @@ const articles: Article[] = [
     date: 'October 28, 2023',
     category: 'Medical Safety',
     slug: '/blog/how-much-is-20mg-in-ml-syringe',
-    imageUrl: 'https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/7933256/pexels-photo-7933256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A medical syringe with clear liquid, representing dosage calculation.',
   },
   {
     title: 'How to Convert mg to ml Easily: A Step-by-Step Guide',
@@ -49,7 +54,8 @@ const articles: Article[] = [
     date: 'October 26, 2023',
     category: 'Guides',
     slug: '/blog/how-to-convert-mg-to-ml',
-    imageUrl: 'https://images.pexels.com/photos/7144216/pexels-photo-7144216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/4047146/pexels-photo-4047146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A collection of laboratory beakers and flasks used for measuring liquids.',
   },
   {
     title: 'Why Density Matters in mg to ml Conversion',
@@ -57,7 +63,8 @@ const articles: Article[] = [
     date: 'October 22, 2023',
     category: 'Science Explained',
     slug: '/blog/why-density-matters',
-    imageUrl: 'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/1316897/pexels-photo-1316897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'Oil floating on top of water in a glass, demonstrating the concept of density.',
   },
   {
     title: 'Top Uses of mg to ml Calculator in Medicine and Cooking',
@@ -65,7 +72,8 @@ const articles: Article[] = [
     date: 'October 18, 2023',
     category: 'Applications',
     slug: '/blog/top-uses-of-mg-to-ml-calculator',
-    imageUrl: 'https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A stack of pancakes with blueberries, representing culinary precision in cooking.',
   },
   {
     title: 'Common Mistakes to Avoid When Converting MG to ML',
@@ -73,7 +81,8 @@ const articles: Article[] = [
     date: 'October 15, 2023',
     category: 'Tips & Tricks',
     slug: '/blog/common-mistakes-in-mg-to-ml-conversion',
-    imageUrl: 'https://images.pexels.com/photos/5907593/pexels-photo-5907593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/6075015/pexels-photo-6075015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A person looking confused while writing a formula, representing common conversion mistakes.',
   },
 ];
 
@@ -92,7 +101,7 @@ const BlogPage: React.FC = () => {
           {articles.map((article) => (
             <div key={article.title} className="flex flex-col md:flex-row rounded-lg shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
               <div className="md:w-1/3">
-                <img className="h-full w-full object-cover" src={article.imageUrl} alt={article.title} />
+                <img className="h-full w-full object-cover" src={article.imageUrl} alt={article.altText} />
               </div>
               <div className="flex-1 p-6 flex flex-col justify-between md:w-2/3">
                 <div className="flex-1">

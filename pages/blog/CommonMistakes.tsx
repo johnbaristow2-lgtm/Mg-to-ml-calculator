@@ -9,7 +9,8 @@ const CommonMistakes: React.FC = () => {
             date="October 15, 2023"
             category="Tips & Tricks"
             currentSlug="/blog/common-mistakes-in-mg-to-ml-conversion"
-            imageUrl="https://images.pexels.com/photos/5907593/pexels-photo-5907593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/6075015/pexels-photo-6075015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A person looking confused while writing a formula, representing common conversion mistakes."
         >
             <p>
                 Converting milligrams (mg) to milliliters (ml) seems simple on the surface, but a few common pitfalls can lead to significant errors. Whether you're in the kitchen or a lab, accuracy matters. An incorrect conversion can ruin a recipe, waste expensive materials, or worse, lead to dangerous situations with medication.
@@ -33,7 +34,7 @@ const CommonMistakes: React.FC = () => {
             </p>
             <ul>
                 <li><strong>Common scenarios:</strong> Using the density of water for milk, or the density of vegetable oil for olive oil. While sometimes close, these small differences can add up. For precise work, these "close enough" estimates are not acceptable.</li>
-                <li><strong>How to avoid it:</strong> Use a reliable source for your density data. Our <Link to="/">MG to ML Calculator</Link> has a dropdown with vetted values for common substances. For scientific work, always refer to a Material Safety Data Sheet (MSDS) or a trusted chemical database.</li>
+                <li><strong>How to avoid it:</strong> Use a reliable source for your density data. Our <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> has a dropdown with vetted values for common substances. For scientific work, always refer to a Material Safety Data Sheet (MSDS) or a trusted chemical database.</li>
             </ul>
 
             <h2>Mistake #3: Confusing Drug Concentration with Density</h2>

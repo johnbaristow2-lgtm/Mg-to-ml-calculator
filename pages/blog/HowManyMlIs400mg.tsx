@@ -9,14 +9,15 @@ const HowManyMlIs400mg: React.FC = () => {
             date="November 3, 2023"
             category="Common Questions"
             currentSlug="/blog/how-many-ml-is-400mg"
-            imageUrl="https://images.pexels.com/photos/3951378/pexels-photo-3951378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/8431835/pexels-photo-8431835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A digital scale accurately measuring a white powder, illustrating mass measurement."
         >
             <p>
                 When you encounter the question, "How many mL is 400 mg?", you're dealing with a common conversion that bridges the gap between mass (weight) and volume (space). The answer is not fixed; it changes based on the substance you're measuring. To get the right answer, you need to know the substance's <strong>density</strong>.
             </p>
 
             <p>
-                This guide will walk you through how to find the answer for different materials and explain why a simple <Link to="/">MG to ML Calculator</Link> is your most reliable tool for the job.
+                This guide will walk you through how to find the answer for different materials and explain why a simple <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is your most reliable tool for the job.
             </p>
 
             <h2>The Key Principle: The Role of Density</h2>
@@ -78,7 +79,7 @@ const HowManyMlIs400mg: React.FC = () => {
                 While you can perform these calculations manually, it requires you to know the precise density of your substance. For everyday use, a dedicated tool is far more efficient and less prone to error.
             </p>
             <p>
-                Our homepage features an easy-to-use <Link to="/">MG to ML Calculator</Link> with a dropdown menu of common substances and their densities. Simply enter 400 mg, select your item, and get an instant, accurate answer without any complex math.
+                Our homepage features an easy-to-use <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> with a dropdown menu of common substances and their densities. Simply enter 400 mg, select your item, and get an instant, accurate answer without any complex math.
             </p>
         </BlogPostLayout>
     );

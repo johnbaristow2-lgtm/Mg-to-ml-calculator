@@ -51,9 +51,10 @@ interface BlogPostLayoutProps {
     children: React.ReactNode;
     currentSlug: string;
     imageUrl: string;
+    altText: string;
 }
 
-const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({ title, date, category, children, currentSlug, imageUrl }) => {
+const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({ title, date, category, children, currentSlug, imageUrl, altText }) => {
   const relatedArticles = allArticles.filter(a => a.slug !== currentSlug).sort(() => 0.5 - Math.random()).slice(0, 3);
 
   return (
@@ -68,7 +69,7 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({ title, date, category, 
       
       {imageUrl && (
         <div className="my-8">
-            <img className="w-full h-96 object-cover" src={imageUrl} alt={title} />
+            <img className="w-full h-96 object-cover" src={imageUrl} alt={altText} />
         </div>
       )}
 
