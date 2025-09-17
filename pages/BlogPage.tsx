@@ -18,8 +18,8 @@ const articles: Article[] = [
     date: 'November 5, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-1mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A collection of glass beakers in a science lab, representing precise measurement.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=What+is+1+mg+to+mL%3F',
+    altText: 'Blog post placeholder image with title: What is 1 mg to mL?',
   },
   {
     title: 'How many mL is 400 mg?',
@@ -27,8 +27,8 @@ const articles: Article[] = [
     date: 'November 3, 2023',
     category: 'Common Questions',
     slug: '/blog/how-many-ml-is-400mg',
-    imageUrl: 'https://images.pexels.com/photos/7733590/pexels-photo-7733590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A digital scale accurately measuring a white powder, illustrating mass measurement.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=How+many+mL+is+400+mg%3F',
+    altText: 'Blog post placeholder image with title: How many mL is 400 mg?',
   },
    {
     title: 'What is 5 mg in mL?',
@@ -36,8 +36,8 @@ const articles: Article[] = [
     date: 'November 2, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-5mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A scientist in a lab coat using a micropipette to transfer liquid.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=What+is+5+mg+in+mL%3F',
+    altText: 'Blog post placeholder image with title: What is 5 mg in mL?',
   },
   {
     title: 'How much is 20 mg in a mL syringe?',
@@ -45,8 +45,8 @@ const articles: Article[] = [
     date: 'October 28, 2023',
     category: 'Medical Safety',
     slug: '/blog/how-much-is-20mg-in-ml-syringe',
-    imageUrl: 'https://images.pexels.com/photos/5721323/pexels-photo-5721323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A close-up of a medical syringe with clear liquid, representing dosage calculation.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=How+much+is+20+mg+in+a+mL+syringe%3F',
+    altText: 'Blog post placeholder image with title: How much is 20 mg in a mL syringe?',
   },
   {
     title: 'How to Convert mg to ml Easily: A Step-by-Step Guide',
@@ -54,8 +54,8 @@ const articles: Article[] = [
     date: 'October 26, 2023',
     category: 'Guides',
     slug: '/blog/how-to-convert-mg-to-ml',
-    imageUrl: 'https://images.pexels.com/photos/5473187/pexels-photo-5473187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A person writing a conversion formula on a piece of paper with a calculator nearby.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=How+to+Convert+mg+to+ml+Easily',
+    altText: 'Blog post placeholder image with title: How to Convert mg to ml Easily: A Step-by-Step Guide',
   },
   {
     title: 'Why Density Matters in mg to ml Conversion',
@@ -63,8 +63,8 @@ const articles: Article[] = [
     date: 'October 22, 2023',
     category: 'Science Explained',
     slug: '/blog/why-density-matters',
-    imageUrl: 'https://images.pexels.com/photos/1316897/pexels-photo-1316897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'Oil floating on top of water in a glass, demonstrating the concept of density.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=Why+Density+Matters',
+    altText: 'Blog post placeholder image with title: Why Density Matters in mg to ml Conversion',
   },
   {
     title: 'Top Uses of mg to ml Calculator in Medicine and Cooking',
@@ -72,8 +72,8 @@ const articles: Article[] = [
     date: 'October 18, 2023',
     category: 'Applications',
     slug: '/blog/top-uses-of-mg-to-ml-calculator',
-    imageUrl: 'https://images.pexels.com/photos/414555/pexels-photo-414555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A split image showing a chef plating food and a doctor with a stethoscope.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=Top+Uses+of+mg+to+ml+Calculator',
+    altText: 'Blog post placeholder image with title: Top Uses of mg to ml Calculator in Medicine and Cooking',
   },
   {
     title: 'Common Mistakes to Avoid When Converting MG to ML',
@@ -81,8 +81,8 @@ const articles: Article[] = [
     date: 'October 15, 2023',
     category: 'Tips & Tricks',
     slug: '/blog/common-mistakes-in-mg-to-ml-conversion',
-    imageUrl: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A person thoughtfully reviewing notes with a red cross mark, representing error correction.',
+    imageUrl: 'https://placehold.co/600x400/0052cc/ffffff?text=Common+Mistakes+to+Avoid',
+    altText: 'Blog post placeholder image with title: Common Mistakes to Avoid When Converting MG to ML',
   },
 ];
 

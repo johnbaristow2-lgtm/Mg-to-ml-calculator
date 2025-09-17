@@ -9,8 +9,8 @@ const TopUsesCalculator: React.FC = () => {
             date="October 18, 2023"
             category="Applications"
             currentSlug="/blog/top-uses-of-mg-to-ml-calculator"
-            imageUrl="https://images.pexels.com/photos/414555/pexels-photo-414555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            altText="A split image showing a chef plating food and a doctor with a stethoscope."
+            imageUrl="https://placehold.co/600x400/0052cc/ffffff?text=Top+Uses+of+mg+to+ml+Calculator"
+            altText="Blog post placeholder image with title: Top Uses of mg to ml Calculator in Medicine and Cooking"
         >
             <p>
                 Converting mass to volume is more than just a math problem—it's a practical necessity in many fields. From ensuring a recipe turns out perfectly to administering safe medical doses, the ability to accurately convert milligrams (mg) to milliliters (ml) is crucial. Let's explore the most common and important applications of a reliable <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.

@@ -9,8 +9,8 @@ const WhyDensityMatters: React.FC = () => {
             date="October 22, 2023"
             category="Science Explained"
             currentSlug="/blog/why-density-matters"
-            imageUrl="https://images.pexels.com/photos/1316897/pexels-photo-1316897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            altText="Oil floating on top of water in a glass, demonstrating the concept of density."
+            imageUrl="https://placehold.co/600x400/0052cc/ffffff?text=Why+Density+Matters"
+            altText="Blog post placeholder image with title: Why Density Matters in mg to ml Conversion"
         >
             <p>
                 When you try to convert milligrams (mg) to milliliters (ml), you'll quickly realize it's not like converting inches to centimeters. There isn't a single, fixed number you can use to multiply or divide. The reason? You're comparing apples and oranges—or more accurately, mass and volume. The secret ingredient that makes this conversion possible is <strong>density</strong>.
