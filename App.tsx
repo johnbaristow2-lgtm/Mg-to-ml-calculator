@@ -16,6 +16,15 @@ import DoseCalculatorPage from './pages/DoseCalculatorPage';
 import MlToMgMedicinePage from './pages/MlToMgMedicinePage';
 import SyringeCalculatorPage from './pages/SyringeCalculatorPage';
 import InfusionRatePage from './pages/InfusionRatePage';
+import MgMlToUmPage from './pages/MgMlToUmPage';
+import PpmPage from './pages/PpmPage';
+import ProteinMolarityPage from './pages/ProteinMolarityPage';
+import ConcentrationPage from './pages/ConcentrationPage';
+import InfusionRateMinPage from './pages/InfusionRateMinPage';
+import UmToMgMlPage from './pages/UmToMgMlPage';
+import EndotoxinPage from './pages/EndotoxinPage';
+import MolarToMgMlPage from './pages/MolarToMgMlPage';
+import DilutionPage from './pages/DilutionPage';
 
 
 const ScrollToTop = () => {
@@ -46,7 +55,7 @@ const App: React.FC = () => {
             {/* Calculator Hub */}
             <Route path="/calculators" element={<CalculatorsPage />} />
             
-            {/* New Calculator Pages */}
+            {/* Existing Calculator Pages */}
             <Route path="/mg-to-ml" element={<HomePage />} />
             <Route path="/mg-to-ml-conversion" element={<HomePage />} />
             <Route path="/ml-to-mg" element={<MlToMgPage />} />
@@ -58,6 +67,18 @@ const App: React.FC = () => {
             <Route path="/ml-to-mg-medicine" element={<MlToMgMedicinePage />} />
             <Route path="/mg-hr-to-ml-hr" element={<InfusionRatePage />} />
             <Route path="/mg-ml-to-molarity" element={<MolarityPage />} />
+
+            {/* New Calculator Pages */}
+            <Route path="/mg-ml-to-um" element={<MgMlToUmPage />} />
+            <Route path="/mg-ml-to-ppm" element={<PpmPage />} />
+            <Route path="/mg-ml-to-molarity-protein" element={<ProteinMolarityPage />} />
+            <Route path="/mg-to-ng-ml" element={<ConcentrationPage />} />
+            <Route path="/mg-min-to-ml-hr" element={<InfusionRateMinPage />} />
+            <Route path="/micromolar-to-mg-ml" element={<UmToMgMlPage />} />
+            <Route path="/conversion-from-mg-to-ml" element={<HomePage />} />
+            <Route path="/eu-ml-to-eu-mg" element={<EndotoxinPage />} />
+            <Route path="/molar-to-mg-ml" element={<MolarToMgMlPage />} />
+            <Route path="/dilution-calculator" element={<DilutionPage />} />
 
           </Routes>
         </main>

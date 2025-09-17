@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -15,6 +16,14 @@ const allCalculators: CalculatorLink[] = [
     { path: '/mg-to-ml-syringe', title: 'MG to ML Syringe Calculator', description: 'For medical dosage calculations involving syringes.' },
     { path: '/mg-hr-to-ml-hr', title: 'MG/hr to ML/hr Calculator', description: 'Convert infusion dose rates from mass/hour to volume/hour.' },
     { path: '/mg-ml-to-molarity', title: 'MG/ML to Molarity Calculator', description: 'Calculate molarity from concentration and molar mass.' },
+    { path: '/dilution-calculator', title: 'Dilution Calculator', description: 'Calculate final concentrations after dilution (C1V1 = C2V2).' },
+    { path: '/mg-ml-to-ppm', title: 'MG/ML to PPM Calculator', description: 'Convert concentration from mg/ml to parts per million (PPM).' },
+    { path: '/molar-to-mg-ml', title: 'Molar to MG/ML Calculator', description: 'Convert molarity (M) to concentration in mg/ml.' },
+    { path: '/micromolar-to-mg-ml', title: 'Micromolar (uM) to MG/ML', description: 'Convert micromolar (uM) concentration to mg/ml.' },
+    { path: '/mg-ml-to-um', title: 'MG/ML to Micromolar (uM)', description: 'Convert concentration in mg/ml to micromolar (uM).' },
+    { path: '/mg-min-to-ml-hr', title: 'MG/min to ML/hr Calculator', description: 'Convert medical infusion rates from mg/minute to ml/hour.' },
+    { path: '/eu-ml-to-eu-mg', title: 'EU/ml to EU/mg Calculator', description: 'Calculate endotoxin units per milligram from concentration.' },
+    { path: '/mg-to-ng-ml', title: 'MG to NG/ML Calculator', description: 'Calculate concentration in ng/ml from mass and volume.' },
 ];
 
 interface RelatedCalculatorsProps {
@@ -22,7 +31,8 @@ interface RelatedCalculatorsProps {
 }
 
 const RelatedCalculators: React.FC<RelatedCalculatorsProps> = ({ currentPage }) => {
-    const related = allCalculators.filter(calc => calc.path !== currentPage);
+    // Show up to 9 related calculators, excluding the current one
+    const related = allCalculators.filter(calc => calc.path !== currentPage).slice(0, 9);
 
     return (
         <section className="py-16 sm:py-20">
