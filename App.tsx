@@ -25,6 +25,10 @@ import UmToMgMlPage from './pages/UmToMgMlPage';
 import EndotoxinPage from './pages/EndotoxinPage';
 import MolarToMgMlPage from './pages/MolarToMgMlPage';
 import DilutionPage from './pages/DilutionPage';
+import HowToConvertMgToMl from './pages/blog/HowToConvertMgToMl';
+import WhyDensityMatters from './pages/blog/WhyDensityMatters';
+import TopUsesCalculator from './pages/blog/TopUsesCalculator';
+import CommonMistakes from './pages/blog/CommonMistakes';
 
 
 const ScrollToTop = () => {
@@ -52,6 +56,12 @@ const App: React.FC = () => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             
+            {/* Blog Posts */}
+            <Route path="/blog/how-to-convert-mg-to-ml" element={<HowToConvertMgToMl />} />
+            <Route path="/blog/why-density-matters" element={<WhyDensityMatters />} />
+            <Route path="/blog/top-uses-of-mg-to-ml-calculator" element={<TopUsesCalculator />} />
+            <Route path="/blog/common-mistakes-in-mg-to-ml-conversion" element={<CommonMistakes />} />
+
             {/* Calculator Hub */}
             <Route path="/calculators" element={<CalculatorsPage />} />
             

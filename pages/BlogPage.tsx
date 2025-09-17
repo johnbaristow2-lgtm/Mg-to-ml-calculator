@@ -7,6 +7,7 @@ interface Article {
   excerpt: string;
   date: string;
   category: string;
+  slug: string;
 }
 
 const articles: Article[] = [
@@ -15,24 +16,28 @@ const articles: Article[] = [
     excerpt: 'Demystify the process of converting milligrams to milliliters. This guide breaks down the formula and provides practical examples for everyday use.',
     date: 'October 26, 2023',
     category: 'Guides',
+    slug: '/blog/how-to-convert-mg-to-ml',
   },
   {
     title: 'Why Density Matters in mg to ml Conversion',
     excerpt: 'Explore the science behind the mg to ml formula. Learn why density is the crucial factor and how it varies between common substances like water, oil, and flour.',
     date: 'October 22, 2023',
     category: 'Science Explained',
+    slug: '/blog/why-density-matters',
   },
   {
     title: 'Top Uses of mg to ml Calculator in Medicine and Cooking',
     excerpt: 'From the kitchen to the pharmacy, converting mass to volume is a daily task. Discover the most common and critical applications of our calculator.',
     date: 'October 18, 2023',
     category: 'Applications',
+    slug: '/blog/top-uses-of-mg-to-ml-calculator',
   },
   {
     title: 'Common Mistakes to Avoid When Converting MG to ML',
     excerpt: 'A simple mistake can lead to big errors in your recipe or dosage. We cover the common pitfalls, such as ignoring density or using the wrong units.',
     date: 'October 15, 2023',
     category: 'Tips & Tricks',
+    slug: '/blog/common-mistakes-in-mg-to-ml-conversion',
   },
 ];
 
@@ -53,8 +58,8 @@ const BlogPage: React.FC = () => {
               <div className="flex-1 p-6 flex flex-col justify-between">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-primary">{article.category}</p>
-                  <Link to="#" className="block mt-2">
-                    <p className="text-xl font-semibold text-gray-900">{article.title}</p>
+                  <Link to={article.slug} className="block mt-2 group">
+                    <p className="text-xl font-semibold text-gray-900 group-hover:text-primary transition-colors duration-200">{article.title}</p>
                     <p className="mt-3 text-base text-gray-500">{article.excerpt}</p>
                   </Link>
                 </div>
