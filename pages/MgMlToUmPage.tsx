@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MgMlToUmCalculator from '../components/MgMlToUmCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -26,6 +26,7 @@ const MgMlToUmPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Understanding Micromolarity</h2>
             <p>Micromolar (µM) is a unit of concentration equal to 10<sup>-6</sup> moles per liter. It's commonly used in biochemistry and molecular biology for enzymes, antibodies, and other molecules. This conversion requires the substance's molar mass (molecular weight) in g/mol. Our tool simplifies the multi-step calculation into one easy form.</p>
+            <p>For more common conversions, like finding the volume of 100mg of flour, our general <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is what you need.</p>
         </div>
       </section>
 

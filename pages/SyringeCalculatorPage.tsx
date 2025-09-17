@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MedicalDosageCalculator from '../components/MedicalDosageCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -24,7 +25,7 @@ const SyringeCalculatorPage: React.FC = () => {
       <section className="py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Accurate Dosing with a Syringe</h2>
-            <p>Using a syringe to administer liquid medication requires precision. This calculator helps you convert the prescribed dose in mg into the correct volume in ml that you need to measure with the syringe. This is vital for ensuring the right amount of medication is given every time.</p>
+            <p>Using a syringe to administer liquid medication requires precision. This calculator helps you convert the prescribed dose in mg into the correct volume in ml that you need to measure with the syringe. While this tool is tailored for syringe measurements, our general <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> can be used for a wider range of substances in cooking and science.</p>
              <div className="mt-8 p-4 bg-red-50 border-l-4 border-red-500 text-red-900">
                 <p className="font-bold">Safety First:</p>
                 <p className="italic mt-1">This tool is a guide and not a substitute for professional medical advice. Always confirm dosages with a healthcare provider and carefully read the medication's label.</p>

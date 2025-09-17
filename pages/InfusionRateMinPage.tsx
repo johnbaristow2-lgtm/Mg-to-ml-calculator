@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import InfusionRateMinToHrCalculator from '../components/InfusionRateMinToHrCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -26,6 +26,7 @@ const InfusionRateMinPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Converting Infusion Rates</h2>
             <p>While some IV drug dosages are prescribed per hour, others, especially potent medications, are prescribed per minute for finer control. Since infusion pumps operate in ml/hr, a two-step conversion is necessary. First, convert the dose from mg/min to mg/hr by multiplying by 60. Then, divide by the drug's concentration in mg/ml to find the final ml/hr rate.</p>
+            <p>This calculator handles a specific time-based conversion for medical rates. For general mass-to-volume conversions, please use our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
         </div>
       </section>
 

@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import DilutionCalculator from '../components/DilutionCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -32,7 +32,7 @@ const DilutionPage: React.FC = () => {
                 <li><strong>C₂</strong> is the concentration of the final, diluted solution.</li>
                 <li><strong>V₂</strong> is the volume of the final, diluted solution.</li>
             </ul>
-            <p>Our calculator allows you to solve for any of these four variables, making it a flexible tool for your lab work. Remember to keep your units consistent (e.g., if C₁ is in mg/ml, C₂ will also be in mg/ml).</p>
+            <p>Our calculator allows you to solve for any of these four variables, making it a flexible tool for your lab work. For simpler mass-to-volume conversions without dilution, the main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is the best tool. Remember to keep your units consistent (e.g., if C₁ is in mg/ml, C₂ will also be in mg/ml).</p>
         </div>
       </section>
 

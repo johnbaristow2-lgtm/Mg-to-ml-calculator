@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MlToMgCalculator from '../components/MlToMgCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -26,7 +27,7 @@ const MlToMgPage: React.FC = () => {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Understanding ML to MG Conversion</h2>
             <p>While often confused, milliliters (a measure of volume) and milligrams (a measure of mass) are not directly interchangeable. The key to converting between them is **density**. The formula is simple:</p>
             <p className="text-center text-lg font-mono bg-gray-100 p-4 rounded-md shadow-sm">Mass (mg) = Volume (ml) × Density (mg/ml)</p>
-            <p>Our calculator automates this process. Just input the volume in ml, select the substance, and we'll handle the math for you. This is essential for accuracy in cooking, chemistry, and other scientific applications.</p>
+            <p>Our calculator automates this process. Just input the volume in ml, select the substance, and we'll handle the math for you. This is essential for accuracy in cooking, chemistry, and other scientific applications. For the reverse calculation, try our primary <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
         </div>
       </section>
 

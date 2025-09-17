@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import EndotoxinCalculator from '../components/EndotoxinCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -25,7 +25,7 @@ const EndotoxinPage: React.FC = () => {
       <section className="py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Endotoxin Unit Conversion</h2>
-            <p>In pharmaceutical and biotech quality control, measuring endotoxin levels is critical for safety. While initial tests often yield a result in EU/ml, specifications are frequently set in EU/mg of the active substance (e.g., a protein). This calculator simplifies the conversion, requiring the EU/ml result and the concentration of the substance in mg/ml.</p>
+            <p>In pharmaceutical and biotech quality control, measuring endotoxin levels is critical for safety. While initial tests often yield a result in EU/ml, specifications are frequently set in EU/mg of the active substance (e.g., a protein). This calculator simplifies the conversion, requiring the EU/ml result and the concentration of the substance in mg/ml. For more basic needs, see our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
         </div>
       </section>
 

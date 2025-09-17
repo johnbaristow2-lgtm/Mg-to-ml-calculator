@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MlToMgMedicalCalculator from '../components/MlToMgMedicalCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -27,6 +28,7 @@ const MlToMgMedicinePage: React.FC = () => {
             <p>Sometimes you need to know how many milligrams of active ingredient are in a certain volume of liquid medicine. This is crucial for tracking total dosage over time. You need the volume administered (ml) and the drug's concentration (mg/ml).</p>
             <p>The formula is:</p>
             <p className="text-center text-lg font-mono bg-gray-100 p-4 rounded-md shadow-sm">Dose (mg) = Volume (ml) × Concentration (mg/ml)</p>
+            <p>For the reverse calculation or for non-medical substances, please use our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
             <div className="mt-8 p-4 bg-red-50 border-l-4 border-red-500 text-red-900">
                 <p className="font-bold">Disclaimer:</p>
                 <p className="italic mt-1">This tool is for informational purposes only. Do not rely on it for medical decisions. Consult a qualified healthcare provider.</p>

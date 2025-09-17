@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MolarityCalculator from '../components/MolarityCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -27,6 +28,7 @@ const MolarityPage: React.FC = () => {
             <p>Molarity is a common unit of concentration in chemistry, defined as moles of solute per liter of solution. To convert a mass concentration like mg/ml to molarity, you need the substance's molar mass (or molecular weight) in grams per mole (g/mol).</p>
             <p>The key insight is that 1 mg/ml is equivalent to 1 g/L. This simplifies the formula to:</p>
             <p className="text-center text-lg font-mono bg-gray-100 p-4 rounded-md shadow-sm">Molarity (mol/L) = Concentration (g/L) / Molar Mass (g/mol)</p>
+            <p>This chemistry-focused tool handles molarity. For basic mass-to-volume conversions, our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is the perfect tool.</p>
         </div>
       </section>
 

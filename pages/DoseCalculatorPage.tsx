@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MedicalDosageCalculator from '../components/MedicalDosageCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -25,6 +26,7 @@ const DoseCalculatorPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Ensuring Dosage Accuracy</h2>
             <p>Administering the correct dose of liquid medication is critical. This calculator helps you determine the exact volume (ml) to give based on the doctor's prescribed dose (mg) and the concentration listed on the medication bottle (mg/ml).</p>
+            <p>For general, non-medical conversions between mass and volume, please refer to our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
             <p className="text-center text-lg font-mono bg-gray-100 p-4 rounded-md shadow-sm">Volume (ml) = Dose (mg) / Concentration (mg/ml)</p>
         </div>
       </section>

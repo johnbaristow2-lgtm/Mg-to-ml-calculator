@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MolarityCalculator from '../components/MolarityCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -31,6 +31,7 @@ const ProteinMolarityPage: React.FC = () => {
                 <li><strong>Protein Concentration in mg/ml:</strong> Your experimentally determined value.</li>
                 <li><strong>Molar Mass in g/mol:</strong> The molecular weight of your protein. This is often expressed in kilodaltons (kDa), where 1 kDa = 1000 g/mol. For example, a 50 kDa protein has a molar mass of 50,000 g/mol.</li>
             </ul>
+             <p>For simpler, non-molar conversions, such as finding the volume of a liquid from its mass, try our standard <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>.</p>
         </div>
       </section>
 

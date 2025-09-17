@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ConcentrationCalculator from '../components/ConcentrationCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -25,7 +25,7 @@ const ConcentrationPage: React.FC = () => {
       <section className="py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Calculating Concentration</h2>
-            <p>This tool is essential in laboratory settings where precise concentrations are required. To find the final concentration, you need the initial mass of the substance and the final volume of the solvent it's dissolved in. Since there are 1,000,000 nanograms (ng) in 1 milligram (mg), the conversion is straightforward.</p>
+            <p>This tool is essential in laboratory settings where precise concentrations are required. To find the final concentration, you need the initial mass of the substance and the final volume of the solvent it's dissolved in. For the reverse (mass to volume), our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link> is a great resource. Since there are 1,000,000 nanograms (ng) in 1 milligram (mg), the conversion is straightforward.</p>
         </div>
       </section>
 

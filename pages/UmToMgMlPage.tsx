@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UmToMgMlCalculator from '../components/UmToMgMlCalculator';
 import RelatedCalculators from '../components/RelatedCalculators';
 
@@ -25,7 +25,7 @@ const UmToMgMlPage: React.FC = () => {
       <section className="py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose lg:prose-xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">From Micromolarity to Mass Concentration</h2>
-            <p>This tool is useful when you need to prepare a solution with a specific mass concentration (mg/ml) from a stock solution whose concentration is known in micromolar (µM). You will need the substance's molar mass in g/mol to perform the calculation.</p>
+            <p>This tool is useful when you need to prepare a solution with a specific mass concentration (mg/ml) from a stock solution whose concentration is known in micromolar (µM). For simpler needs, check out our main <Link to="/" className="text-primary hover:underline font-semibold">MG to ML Calculator</Link>. You will need the substance's molar mass in g/mol to perform the calculation.</p>
         </div>
       </section>
 
