@@ -25,10 +25,16 @@ import UmToMgMlPage from './pages/UmToMgMlPage';
 import EndotoxinPage from './pages/EndotoxinPage';
 import MolarToMgMlPage from './pages/MolarToMgMlPage';
 import DilutionPage from './pages/DilutionPage';
+
+// Blog Posts
 import HowToConvertMgToMl from './pages/blog/HowToConvertMgToMl';
 import WhyDensityMatters from './pages/blog/WhyDensityMatters';
 import TopUsesCalculator from './pages/blog/TopUsesCalculator';
 import CommonMistakes from './pages/blog/CommonMistakes';
+import WhatIs1mgInMl from './pages/blog/WhatIs1mgInMl';
+import WhatIs5mgInMl from './pages/blog/WhatIs5mgInMl';
+import HowMuchIs20mgInSyringe from './pages/blog/HowMuchIs20mgInSyringe';
+import HowManyMlIs400mg from './pages/blog/HowManyMlIs400mg';
 
 
 const ScrollToTop = () => {
@@ -61,6 +67,10 @@ const App: React.FC = () => {
             <Route path="/blog/why-density-matters" element={<WhyDensityMatters />} />
             <Route path="/blog/top-uses-of-mg-to-ml-calculator" element={<TopUsesCalculator />} />
             <Route path="/blog/common-mistakes-in-mg-to-ml-conversion" element={<CommonMistakes />} />
+            <Route path="/blog/what-is-1mg-in-ml" element={<WhatIs1mgInMl />} />
+            <Route path="/blog/what-is-5mg-in-ml" element={<WhatIs5mgInMl />} />
+            <Route path="/blog/how-much-is-20mg-in-ml-syringe" element={<HowMuchIs20mgInSyringe />} />
+            <Route path="/blog/how-many-ml-is-400mg" element={<HowManyMlIs400mg />} />
 
             {/* Calculator Hub */}
             <Route path="/calculators" element={<CalculatorsPage />} />

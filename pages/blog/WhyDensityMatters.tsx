@@ -20,7 +20,7 @@ const WhyDensityMatters: React.FC = () => {
                 In simple terms, density is a measure of how tightly packed the "stuff" (mass) is within a given space (volume). A substance with high density has a lot of mass crammed into a small volume. A substance with low density has less mass in that same amount of volume.
             </p>
             <p>
-                The classic example is a block of lead versus a block of wood of the same size. The lead is much heavier because its atoms are packed together more tightly—it is denser.
+                The classic example is a block of lead versus a block of wood of the same size. The lead is much heavier because its atoms are packed together more tightly—it is denser. Our primary <Link to="/">MG to ML Calculator</Link> automates this entire process, but understanding the science is key.
             </p>
             <p>
                 Scientifically, density is calculated with the formula:

@@ -33,7 +33,7 @@ const CommonMistakes: React.FC = () => {
             </p>
             <ul>
                 <li><strong>Common scenarios:</strong> Using the density of water for milk, or the density of vegetable oil for olive oil. While sometimes close, these small differences can add up. For precise work, these "close enough" estimates are not acceptable.</li>
-                <li><strong>How to avoid it:</strong> Use a reliable source for your density data. Our <Link to="/">online calculator</Link> has a dropdown with vetted values for common substances. For scientific work, always refer to a Material Safety Data Sheet (MSDS) or a trusted chemical database.</li>
+                <li><strong>How to avoid it:</strong> Use a reliable source for your density data. Our <Link to="/">MG to ML Calculator</Link> has a dropdown with vetted values for common substances. For scientific work, always refer to a Material Safety Data Sheet (MSDS) or a trusted chemical database.</li>
             </ul>
 
             <h3>Mistake #3: Confusing Drug Concentration with Density</h3>

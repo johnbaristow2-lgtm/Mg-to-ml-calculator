@@ -23,6 +23,26 @@ const allArticles = [
     category: 'Tips & Tricks',
     slug: '/blog/common-mistakes-in-mg-to-ml-conversion',
   },
+  {
+    title: 'What is 1 mg to mL?',
+    category: 'Common Questions',
+    slug: '/blog/what-is-1mg-in-ml',
+  },
+  {
+    title: 'What is 5 mg in mL?',
+    category: 'Common Questions',
+    slug: '/blog/what-is-5mg-in-ml',
+  },
+  {
+    title: 'How much is 20 mg in a mL syringe?',
+    category: 'Medical Safety',
+    slug: '/blog/how-much-is-20mg-in-ml-syringe',
+  },
+  {
+    title: 'How many mL is 400 mg?',
+    category: 'Common Questions',
+    slug: '/blog/how-many-ml-is-400mg',
+  },
 ];
 
 interface BlogPostLayoutProps {
@@ -34,7 +54,7 @@ interface BlogPostLayoutProps {
 }
 
 const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({ title, date, category, children, currentSlug }) => {
-  const relatedArticles = allArticles.filter(a => a.slug !== currentSlug).slice(0, 3);
+  const relatedArticles = allArticles.filter(a => a.slug !== currentSlug).sort(() => 0.5 - Math.random()).slice(0, 3);
 
   return (
     <div className="bg-white py-16 sm:py-20">

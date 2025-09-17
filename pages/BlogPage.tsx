@@ -12,6 +12,34 @@ interface Article {
 
 const articles: Article[] = [
   {
+    title: 'What is 1 mg to mL?',
+    excerpt: 'A detailed breakdown of how to convert 1 milligram to milliliters for different substances, explaining the critical role of density.',
+    date: 'November 5, 2023',
+    category: 'Common Questions',
+    slug: '/blog/what-is-1mg-in-ml',
+  },
+  {
+    title: 'How many mL is 400 mg?',
+    excerpt: 'Answering a common conversion question with practical examples for water, medicine, and cooking ingredients. Learn the formula to solve it yourself.',
+    date: 'November 3, 2023',
+    category: 'Common Questions',
+    slug: '/blog/how-many-ml-is-400mg',
+  },
+   {
+    title: 'What is 5 mg in mL?',
+    excerpt: 'Building on the basics, this article explains how to convert 5 mg to ml and why the answer is different for substances like oil and sugar.',
+    date: 'November 2, 2023',
+    category: 'Common Questions',
+    slug: '/blog/what-is-5mg-in-ml',
+  },
+  {
+    title: 'How much is 20 mg in a mL syringe?',
+    excerpt: 'A crucial guide for understanding medical dosages. Learn how drug concentration is the key to converting mg to ml for a syringe.',
+    date: 'October 28, 2023',
+    category: 'Medical Safety',
+    slug: '/blog/how-much-is-20mg-in-ml-syringe',
+  },
+  {
     title: 'How to Convert mg to ml Easily: A Step-by-Step Guide',
     excerpt: 'Demystify the process of converting milligrams to milliliters. This guide breaks down the formula and provides practical examples for everyday use.',
     date: 'October 26, 2023',
