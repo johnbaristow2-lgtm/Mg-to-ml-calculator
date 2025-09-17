@@ -9,13 +9,13 @@ const TopUsesCalculator: React.FC = () => {
             date="October 18, 2023"
             category="Applications"
             currentSlug="/blog/top-uses-of-mg-to-ml-calculator"
-            imageUrl="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1935&auto=format&fit=crop"
+            imageUrl="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         >
             <p>
                 Converting mass to volume is more than just a math problem—it's a practical necessity in many fields. From ensuring a recipe turns out perfectly to administering safe medical doses, the ability to accurately convert milligrams (mg) to milliliters (ml) is crucial. Let's explore the most common and important applications of a reliable <Link to="/">MG to ML Calculator</Link>.
             </p>
 
-            <h3>1. In the Kitchen: Culinary Precision</h3>
+            <h2>1. In the Kitchen: Culinary Precision</h2>
             <p>
                 While many home cooks are comfortable with cups and tablespoons, serious baking and gastronomy demand precision. Mass is a far more accurate measure than volume for dry ingredients like flour or sugar, whose volume can change depending on how it's packed.
             </p>
@@ -25,7 +25,7 @@ const TopUsesCalculator: React.FC = () => {
                 <li><strong>Molecular Gastronomy:</strong> This culinary art relies on exact chemical reactions. Converting the mass of gelling agents or emulsifiers into liquid volumes is a daily task.</li>
             </ul>
 
-            <h3>2. In Medicine and Pharmaceuticals: A Critical Tool</h3>
+            <h2>2. In Medicine and Pharmaceuticals: A Critical Tool</h2>
             <p>
                 This is perhaps the most critical application, and it comes with a major responsibility. The concentration of liquid medications is almost always given in mg/ml (e.g., "100 mg per 5 ml").
             </p>
@@ -39,7 +39,7 @@ const TopUsesCalculator: React.FC = () => {
                 <li><strong>Compounding Pharmacies:</strong> Pharmacists who mix custom medications rely heavily on precise mass-to-volume conversions to create safe and effective formulations.</li>
             </ul>
 
-            <h3>3. In the Laboratory: Scientific Accuracy</h3>
+            <h2>3. In the Laboratory: Scientific Accuracy</h2>
             <p>
                 In any chemistry, biology, or physics lab, accuracy is paramount. Scientists work with reagents and prepare solutions where concentration is key.
             </p>

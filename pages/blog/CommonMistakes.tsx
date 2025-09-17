@@ -9,7 +9,7 @@ const CommonMistakes: React.FC = () => {
             date="October 15, 2023"
             category="Tips & Tricks"
             currentSlug="/blog/common-mistakes-in-mg-to-ml-conversion"
-            imageUrl="https://images.unsplash.com/photo-1517800225339-e421f6479e0a?q=80&w=2070&auto=format&fit=crop"
+            imageUrl="https://images.pexels.com/photos/5907593/pexels-photo-5907593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         >
             <p>
                 Converting milligrams (mg) to milliliters (ml) seems simple on the surface, but a few common pitfalls can lead to significant errors. Whether you're in the kitchen or a lab, accuracy matters. An incorrect conversion can ruin a recipe, waste expensive materials, or worse, lead to dangerous situations with medication.
@@ -18,7 +18,7 @@ const CommonMistakes: React.FC = () => {
                 Here are the most common mistakes people make and how you can avoid them to ensure your conversions are always accurate and safe.
             </p>
 
-            <h3>Mistake #1: Assuming 1 mg = 1 ml</h3>
+            <h2>Mistake #1: Assuming 1 mg = 1 ml</h2>
             <p>
                 This is by far the most frequent and dangerous error. This 1:1 relationship is <strong>only true for pure water</strong> at a specific temperature. People often learn this fact and incorrectly apply it to all other substances.
             </p>
@@ -27,7 +27,7 @@ const CommonMistakes: React.FC = () => {
                 <li><strong>How to avoid it:</strong> Always remember the formula: <code>Volume = Mass / Density</code>. Never assume a 1:1 conversion unless you are explicitly working with water.</li>
             </ul>
 
-            <h3>Mistake #2: Using the Wrong Density Value</h3>
+            <h2>Mistake #2: Using the Wrong Density Value</h2>
             <p>
                 Even if you know you need to use density, using an incorrect value is just as bad as ignoring it completely.
             </p>
@@ -36,7 +36,7 @@ const CommonMistakes: React.FC = () => {
                 <li><strong>How to avoid it:</strong> Use a reliable source for your density data. Our <Link to="/">MG to ML Calculator</Link> has a dropdown with vetted values for common substances. For scientific work, always refer to a Material Safety Data Sheet (MSDS) or a trusted chemical database.</li>
             </ul>
 
-            <h3>Mistake #3: Confusing Drug Concentration with Density</h3>
+            <h2>Mistake #3: Confusing Drug Concentration with Density</h2>
             <p>
                 In a medical context, the "density" you use is the drug's concentration, which is usually found on the label (e.g., "125 mg / 5 ml").
             </p>
@@ -45,7 +45,7 @@ const CommonMistakes: React.FC = () => {
                 <li><strong>How to avoid it:</strong> When dealing with medicine, always use the concentration printed on the vial or package. Do not guess or use a generic density. And remember, all medical calculations should be verified by a professional. Our <Link to="/mg-to-ml-medicine">medicine-specific calculator</Link> is designed to make this clearer.</li>
             </ul>
 
-            <h3>Mistake #4: Unit Mix-ups</h3>
+            <h2>Mistake #4: Unit Mix-ups</h2>
             <p>
                 It's easy to mix up your units, especially when working with grams, milligrams, liters, and milliliters. The conversion formula requires consistent units.
             </p>

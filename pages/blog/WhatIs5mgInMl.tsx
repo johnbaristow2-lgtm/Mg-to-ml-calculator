@@ -9,7 +9,7 @@ const WhatIs5mgInMl: React.FC = () => {
             date="November 2, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-5mg-in-ml"
-            imageUrl="https://images.unsplash.com/photo-1590512318917-3da2d3493114?q=80&w=2070&auto=format&fit=crop"
+            imageUrl="https://images.pexels.com/photos/54123/pexels-photo-54123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         >
             <p>
                 The question "What is 5 mg in mL?" is a common one, whether you're working with a recipe, a scientific formula, or a medical supplement. Just like with the question of <Link to="/blog/what-is-1mg-in-ml">converting 1 mg to mL</Link>, the answer is not a single number. It all comes down to the <strong>density</strong> of the substance you are measuring.
@@ -19,7 +19,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 Let’s be clear: milligrams (mg) measure mass (weight), and milliliters (mL) measure volume (space). You cannot directly convert one to the other without knowing how much mass is packed into a certain volume. That’s what density tells us.
             </p>
 
-            <h3>The Universal Conversion Formula</h3>
+            <h2>The Universal Conversion Formula</h2>
             <p>
                 To convert any mass in mg to a volume in mL, you must use the following formula:
             </p>
@@ -30,7 +30,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 For this question, our "Mass (mg)" is 5. Now, let’s see how the "Density (mg/mL)" value changes the result for different common substances.
             </p>
 
-            <h3>Example 1: 5 mg of Water</h3>
+            <h2>Example 1: 5 mg of Water</h2>
             <p>
                 Water is our baseline. Its density is approximately <strong>1000 mg/mL</strong>. This makes the calculation very straightforward.
             </p>
@@ -42,7 +42,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 So, 5 mg of water occupies a tiny volume of 0.005 mL. This simple relationship is unique to water and substances with similar densities.
             </p>
 
-            <h3>Example 2: 5 mg of Flour</h3>
+            <h2>Example 2: 5 mg of Flour</h2>
             <p>
                 Now let's consider a dry ingredient like all-purpose flour. Flour is much less dense than water; it's light and airy. Its density is roughly <strong>528 mg/mL</strong>.
             </p>
@@ -54,7 +54,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 As you can see, 5 mg of flour takes up almost twice the volume as 5 mg of water. This is why professional bakers always weigh their flour instead of using measuring cups—it's far more accurate.
             </p>
 
-            <h3>Example 3: 5 mg of Salt</h3>
+            <h2>Example 3: 5 mg of Salt</h2>
             <p>
                 Table salt, on the other hand, is denser than water. Its density is about <strong>1217 mg/mL</strong>.
             </p>
@@ -66,7 +66,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 In this case, 5 mg of salt takes up less space than 5 mg of water. The fine, crystalline structure of salt allows more mass to be packed into a smaller volume.
             </p>
             
-            <h3>Why This Matters</h3>
+            <h2>Why This Matters</h2>
             <p>
                 The differences might seem tiny—we are dealing with thousandths of a milliliter! However, these calculations are based on ratios. The difference between converting 500 mg of flour and 500 mg of salt becomes substantial.
             </p>
@@ -74,7 +74,7 @@ const WhatIs5mgInMl: React.FC = () => {
                 For example, converting <Link to="/blog/how-many-ml-is-400mg">400 mg to mL</Link> for different substances will yield vastly different results, which can impact the outcome of your recipe or experiment.
             </p>
 
-            <h3>The Easiest Way to Convert</h3>
+            <h2>The Easiest Way to Convert</h2>
             <p>
                 Remembering the density of every substance is impossible, and performing manual calculations can lead to errors. To ensure speed and accuracy, it's always best to use a specialized tool.
             </p>

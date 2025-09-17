@@ -9,7 +9,7 @@ const WhatIs1mgInMl: React.FC = () => {
             date="November 5, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-1mg-in-ml"
-            imageUrl="https://images.unsplash.com/photo-1551756509-8547413556a3?q=80&w=2070&auto=format&fit=crop"
+            imageUrl="https://images.pexels.com/photos/3764563/pexels-photo-3764563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         >
             <p>
                 It’s one of the most frequently asked questions in the world of measurement conversions: "What is 1 mg to mL?" The answer, which might be surprising, is: <strong>it depends entirely on the substance you are measuring.</strong> There is no single, universal answer.
@@ -28,7 +28,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 To convert between them, you need a property that links mass and volume together. That property is <strong>density</strong>.
             </p>
 
-            <h3>The Formula That Governs Everything</h3>
+            <h2>The Formula That Governs Everything</h2>
             <p>
                 The relationship between mass, volume, and density is defined by a simple formula. To find the volume in mL from a mass in mg, you use:
             </p>
@@ -39,7 +39,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 As you can see, the density of the substance is a critical part of the equation. Let’s explore how this works with some real-world examples for 1 mg.
             </p>
 
-            <h3>Example 1: The Case of Water</h3>
+            <h2>Example 1: The Case of Water</h2>
             <p>
                 Water is the simplest case and the reason why this question is so common. The metric system was designed around water. By definition, the density of pure water is approximately <strong>1000 mg/mL</strong>.
             </p>
@@ -52,7 +52,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 So, for water, 1 mg is equal to 0.001 mL. Or, to put it another way, 1000 mg of water is exactly 1 mL. This simple 1000:1 ratio is often mistakenly applied to other substances, which can lead to major errors.
             </p>
 
-            <h3>Example 2: Cooking with Olive Oil</h3>
+            <h2>Example 2: Cooking with Olive Oil</h2>
             <p>
                 Now, let's take a substance that is less dense than water, like olive oil. The density of olive oil is around <strong>918 mg/mL</strong>.
             </p>
@@ -65,7 +65,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 Notice that 1 mg of olive oil takes up slightly more space (volume) than 1 mg of water. While the difference is tiny for 1 mg, it becomes significant when you're measuring hundreds or thousands of milligrams.
             </p>
 
-            <h3>Example 3: Dense Honey</h3>
+            <h2>Example 3: Dense Honey</h2>
             <p>
                 Honey is much denser than water, with a density of about <strong>1420 mg/mL</strong>.
             </p>
@@ -78,7 +78,7 @@ const WhatIs1mgInMl: React.FC = () => {
                 Here, 1 mg of honey occupies significantly less volume than 1 mg of water. This is why a spoonful of honey feels much heavier than a spoonful of water.
             </p>
 
-            <h3>Conclusion: Use a Calculator for Accuracy</h3>
+            <h2>Conclusion: Use a Calculator for Accuracy</h2>
             <p>
                 As demonstrated, the volume of 1 mg changes with every substance. There is no shortcut. For accurate and instant results, the best approach is to use a reliable tool.
             </p>
