@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 const NavIcon: React.FC = () => (
   <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -10,9 +9,12 @@ const NavIcon: React.FC = () => (
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const navLinkClasses = "px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100 hover:text-primary";
   const activeNavLinkClasses = "bg-primary/10 text-primary";
+  
+  const isCalculatorActive = location.pathname === '/' || location.pathname === '/calculator';
 
   return (
     <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
@@ -27,7 +29,7 @@ const Header: React.FC = () => {
           <div className="hidden md:block">
             <nav className="ml-10 flex items-baseline space-x-4">
               <NavLink to="/" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} end>Home</NavLink>
-              <NavLink to="/calculator" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Calculator</NavLink>
+              <NavLink to="/calculator" className={`${navLinkClasses} ${isCalculatorActive ? activeNavLinkClasses : ''}`}>Calculator</NavLink>
               <NavLink to="/blog" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Blog</NavLink>
               <NavLink to="/about" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>About</NavLink>
               <NavLink to="/contact" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Contact</NavLink>
@@ -60,7 +62,7 @@ const Header: React.FC = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <NavLink to="/" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} end onClick={() => setIsOpen(false)}>Home</NavLink>
-            <NavLink to="/calculator" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Calculator</NavLink>
+            <NavLink to="/calculator" className={`block ${navLinkClasses} ${isCalculatorActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Calculator</NavLink>
             <NavLink to="/blog" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Blog</NavLink>
             <NavLink to="/about" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>About</NavLink>
             <NavLink to="/contact" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Contact</NavLink>
