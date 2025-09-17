@@ -9,8 +9,8 @@ const HowToConvertMgToMl: React.FC = () => {
             date="October 26, 2023"
             category="Guides"
             currentSlug="/blog/how-to-convert-mg-to-ml"
-            imageUrl="https://images.pexels.com/photos/4047146/pexels-photo-4047146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            altText="A collection of laboratory beakers and flasks used for measuring liquids."
+            imageUrl="https://images.pexels.com/photos/5473187/pexels-photo-5473187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A person writing a conversion formula on a piece of paper with a calculator nearby."
         >
             <p>
                 Have you ever found yourself staring at a recipe that calls for milligrams (mg) of an oil, or a science experiment requiring a precise volume in milliliters (ml)? The conversion between mass (mg) and volume (ml) is a common point of confusion because it’s not a simple, one-to-one swap. But don't worry—it's easier than you think once you understand the key principle: <strong>density</strong>. This guide will walk you through the entire process, step-by-step.

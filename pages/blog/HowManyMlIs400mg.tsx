@@ -9,7 +9,7 @@ const HowManyMlIs400mg: React.FC = () => {
             date="November 3, 2023"
             category="Common Questions"
             currentSlug="/blog/how-many-ml-is-400mg"
-            imageUrl="https://images.pexels.com/photos/8431835/pexels-photo-8431835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="https://images.pexels.com/photos/7733590/pexels-photo-7733590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             altText="A digital scale accurately measuring a white powder, illustrating mass measurement."
         >
             <p>

@@ -9,8 +9,8 @@ const HowMuchIs20mgInSyringe: React.FC = () => {
             date="October 28, 2023"
             category="Medical Safety"
             currentSlug="/blog/how-much-is-20mg-in-ml-syringe"
-            imageUrl="https://images.pexels.com/photos/7933256/pexels-photo-7933256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            altText="A medical syringe with clear liquid, representing dosage calculation."
+            imageUrl="https://images.pexels.com/photos/5721323/pexels-photo-5721323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            altText="A close-up of a medical syringe with clear liquid, representing dosage calculation."
         >
             <div className="p-4 bg-red-50 border-l-4 border-red-500 text-red-800 my-6">
                 <p className="font-bold">CRITICAL SAFETY INFORMATION:</p>

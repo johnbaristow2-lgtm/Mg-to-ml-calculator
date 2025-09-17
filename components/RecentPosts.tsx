@@ -6,22 +6,22 @@ const recentArticles = [
     title: 'What is 1 mg to mL?',
     excerpt: 'A detailed breakdown of how to convert 1 milligram to milliliters for different substances, explaining the critical role of density.',
     slug: '/blog/what-is-1mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/37351/glass-beaker-beaker-lab-research.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A glass beaker in a science lab, representing precise measurement.',
+    imageUrl: 'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A collection of glass beakers in a science lab, representing precise measurement.',
   },
   {
     title: 'How many mL is 400 mg?',
     excerpt: 'Answering a common conversion question with practical examples for water, medicine, and cooking ingredients. Learn the formula to solve it yourself.',
     slug: '/blog/how-many-ml-is-400mg',
-    imageUrl: 'https://images.pexels.com/photos/8431835/pexels-photo-8431835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.pexels.com/photos/7733590/pexels-photo-7733590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     altText: 'A digital scale accurately measuring a white powder, illustrating mass measurement.',
   },
    {
     title: 'What is 5 mg in mL?',
     excerpt: 'Building on the basics, this article explains how to convert 5 mg to ml and why the answer is different for substances like oil and sugar.',
     slug: '/blog/what-is-5mg-in-ml',
-    imageUrl: 'https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    altText: 'A scientist using a pipette to transfer a small amount of blue liquid to a test tube.',
+    imageUrl: 'https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    altText: 'A scientist in a lab coat using a micropipette to transfer liquid.',
   },
 ];
 
