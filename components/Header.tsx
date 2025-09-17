@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   const navLinkClasses = "px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100 hover:text-primary";
   const activeNavLinkClasses = "bg-primary/10 text-primary";
   
-  const isCalculatorActive = location.pathname === '/' || location.pathname === '/calculator';
+  const isCalculatorActive = location.pathname === '/' || location.pathname.startsWith('/mg-to-ml') || location.pathname.startsWith('/ml-to-mg');
 
   return (
     <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
@@ -28,8 +28,8 @@ const Header: React.FC = () => {
           </div>
           <div className="hidden md:block">
             <nav className="ml-10 flex items-baseline space-x-4">
-              <NavLink to="/" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} end>Home</NavLink>
-              <NavLink to="/calculator" className={`${navLinkClasses} ${isCalculatorActive ? activeNavLinkClasses : ''}`}>Calculator</NavLink>
+              <NavLink to="/" className={({ isActive }) => `${navLinkClasses} ${isCalculatorActive && isActive ? activeNavLinkClasses : ''}`} end>Home</NavLink>
+              <NavLink to="/calculators" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Calculators</NavLink>
               <NavLink to="/blog" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Blog</NavLink>
               <NavLink to="/about" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>About</NavLink>
               <NavLink to="/contact" className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}>Contact</NavLink>
@@ -61,8 +61,8 @@ const Header: React.FC = () => {
       {isOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <NavLink to="/" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} end onClick={() => setIsOpen(false)}>Home</NavLink>
-            <NavLink to="/calculator" className={`block ${navLinkClasses} ${isCalculatorActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Calculator</NavLink>
+            <NavLink to="/" className={({ isActive }) => `block ${navLinkClasses} ${isCalculatorActive && isActive ? activeNavLinkClasses : ''}`} end onClick={() => setIsOpen(false)}>Home</NavLink>
+            <NavLink to="/calculators" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Calculators</NavLink>
             <NavLink to="/blog" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Blog</NavLink>
             <NavLink to="/about" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>About</NavLink>
             <NavLink to="/contact" className={({ isActive }) => `block ${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`} onClick={() => setIsOpen(false)}>Contact</NavLink>

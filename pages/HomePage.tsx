@@ -1,6 +1,7 @@
 import React from 'react';
 import Calculator from '../components/Calculator';
 import { SUBSTANCES } from '../constants';
+import RelatedCalculators from '../components/RelatedCalculators';
 
 const FaqItem: React.FC<{ question: string; children: React.ReactNode }> = ({ question, children }) => {
   return (
@@ -159,6 +160,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+      <RelatedCalculators currentPage="/mg-to-ml" />
     </>
   );
 };
