@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const CommonMistakes: React.FC = () => {
             date="October 15, 2023"
             category="Tips & Tricks"
             currentSlug="/blog/common-mistakes-in-mg-to-ml-conversion"
+            imageUrl="https://images.unsplash.com/photo-1517800225339-e421f6479e0a?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 Converting milligrams (mg) to milliliters (ml) seems simple on the surface, but a few common pitfalls can lead to significant errors. Whether you're in the kitchen or a lab, accuracy matters. An incorrect conversion can ruin a recipe, waste expensive materials, or worse, lead to dangerous situations with medication.

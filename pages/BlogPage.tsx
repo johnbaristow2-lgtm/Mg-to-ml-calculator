@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,6 +7,7 @@ interface Article {
   date: string;
   category: string;
   slug: string;
+  imageUrl: string;
 }
 
 const articles: Article[] = [
@@ -17,6 +17,7 @@ const articles: Article[] = [
     date: 'November 5, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-1mg-in-ml',
+    imageUrl: 'https://images.unsplash.com/photo-1551756509-8547413556a3?q=80&w=2070&auto=format&fit=crop',
   },
   {
     title: 'How many mL is 400 mg?',
@@ -24,6 +25,7 @@ const articles: Article[] = [
     date: 'November 3, 2023',
     category: 'Common Questions',
     slug: '/blog/how-many-ml-is-400mg',
+    imageUrl: 'https://images.unsplash.com/photo-1627992942852-972a45831317?q=80&w=2070&auto=format&fit=crop',
   },
    {
     title: 'What is 5 mg in mL?',
@@ -31,6 +33,7 @@ const articles: Article[] = [
     date: 'November 2, 2023',
     category: 'Common Questions',
     slug: '/blog/what-is-5mg-in-ml',
+    imageUrl: 'https://images.unsplash.com/photo-1590512318917-3da2d3493114?q=80&w=2070&auto=format&fit=crop',
   },
   {
     title: 'How much is 20 mg in a mL syringe?',
@@ -38,6 +41,7 @@ const articles: Article[] = [
     date: 'October 28, 2023',
     category: 'Medical Safety',
     slug: '/blog/how-much-is-20mg-in-ml-syringe',
+    imageUrl: 'https://images.unsplash.com/photo-1606037149021-3d73b3798651?q=80&w=2070&auto=format&fit=crop',
   },
   {
     title: 'How to Convert mg to ml Easily: A Step-by-Step Guide',
@@ -45,6 +49,7 @@ const articles: Article[] = [
     date: 'October 26, 2023',
     category: 'Guides',
     slug: '/blog/how-to-convert-mg-to-ml',
+    imageUrl: 'https://images.unsplash.com/photo-1579547945412-424c84a546d1?q=80&w=2070&auto=format&fit=crop',
   },
   {
     title: 'Why Density Matters in mg to ml Conversion',
@@ -52,6 +57,7 @@ const articles: Article[] = [
     date: 'October 22, 2023',
     category: 'Science Explained',
     slug: '/blog/why-density-matters',
+    imageUrl: 'https://images.unsplash.com/photo-1635324296997-1b4119951f21?q=80&w=2070&auto=format&fit=crop',
   },
   {
     title: 'Top Uses of mg to ml Calculator in Medicine and Cooking',
@@ -59,6 +65,7 @@ const articles: Article[] = [
     date: 'October 18, 2023',
     category: 'Applications',
     slug: '/blog/top-uses-of-mg-to-ml-calculator',
+    imageUrl: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1935&auto=format&fit=crop',
   },
   {
     title: 'Common Mistakes to Avoid When Converting MG to ML',
@@ -66,6 +73,7 @@ const articles: Article[] = [
     date: 'October 15, 2023',
     category: 'Tips & Tricks',
     slug: '/blog/common-mistakes-in-mg-to-ml-conversion',
+    imageUrl: 'https://images.unsplash.com/photo-1517800225339-e421f6479e0a?q=80&w=2070&auto=format&fit=crop',
   },
 ];
 
@@ -82,8 +90,11 @@ const BlogPage: React.FC = () => {
 
         <div className="mt-12 max-w-lg mx-auto grid gap-8 lg:grid-cols-1 lg:max-w-none">
           {articles.map((article) => (
-            <div key={article.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
-              <div className="flex-1 p-6 flex flex-col justify-between">
+            <div key={article.title} className="flex flex-col md:flex-row rounded-lg shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
+              <div className="md:w-1/3">
+                <img className="h-full w-full object-cover" src={article.imageUrl} alt="" />
+              </div>
+              <div className="flex-1 p-6 flex flex-col justify-between md:w-2/3">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-primary">{article.category}</p>
                   <Link to={article.slug} className="block mt-2 group">

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const WhatIs5mgInMl: React.FC = () => {
             date="November 2, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-5mg-in-ml"
+            imageUrl="https://images.unsplash.com/photo-1590512318917-3da2d3493114?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 The question "What is 5 mg in mL?" is a common one, whether you're working with a recipe, a scientific formula, or a medical supplement. Just like with the question of <Link to="/blog/what-is-1mg-in-ml">converting 1 mg to mL</Link>, the answer is not a single number. It all comes down to the <strong>density</strong> of the substance you are measuring.

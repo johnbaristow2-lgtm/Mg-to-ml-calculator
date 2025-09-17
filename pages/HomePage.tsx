@@ -2,6 +2,7 @@ import React from 'react';
 import Calculator from '../components/Calculator';
 import { SUBSTANCES } from '../constants';
 import RelatedCalculators from '../components/RelatedCalculators';
+import RecentPosts from '../components/RecentPosts';
 
 const FaqItem: React.FC<{ question: string; children: React.ReactNode }> = ({ question, children }) => {
   return (
@@ -139,6 +140,8 @@ const HomePage: React.FC = () => {
           <ReviewerBio />
         </div>
       </section>
+
+      <RecentPosts />
       
       {/* FAQ Section */}
       <section className="bg-light-gray py-16 sm:py-20">

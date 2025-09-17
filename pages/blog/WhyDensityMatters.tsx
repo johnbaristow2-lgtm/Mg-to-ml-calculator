@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const WhyDensityMatters: React.FC = () => {
             date="October 22, 2023"
             category="Science Explained"
             currentSlug="/blog/why-density-matters"
+            imageUrl="https://images.unsplash.com/photo-1635324296997-1b4119951f21?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 When you try to convert milligrams (mg) to milliliters (ml), you'll quickly realize it's not like converting inches to centimeters. There isn't a single, fixed number you can use to multiply or divide. The reason? You're comparing apples and oranges—or more accurately, mass and volume. The secret ingredient that makes this conversion possible is <strong>density</strong>.

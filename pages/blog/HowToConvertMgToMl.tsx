@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const HowToConvertMgToMl: React.FC = () => {
             date="October 26, 2023"
             category="Guides"
             currentSlug="/blog/how-to-convert-mg-to-ml"
+            imageUrl="https://images.unsplash.com/photo-1579547945412-424c84a546d1?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 Have you ever found yourself staring at a recipe that calls for milligrams (mg) of an oil, or a science experiment requiring a precise volume in milliliters (ml)? The conversion between mass (mg) and volume (ml) is a common point of confusion because it’s not a simple, one-to-one swap. But don't worry—it's easier than you think once you understand the key principle: <strong>density</strong>. This guide will walk you through the entire process, step-by-step.
@@ -49,7 +49,7 @@ const HowToConvertMgToMl: React.FC = () => {
                 <li><strong>For Cooking:</strong> Olive oil has a density of about 918 mg/ml. Honey is much denser at ~1420 mg/ml.</li>
                 <li><strong>For Medicine:</strong> Liquid medications have their concentration (which functions as density for this calculation) printed on the label, such as "250 mg / 5 ml". This means its density is 50 mg/ml.</li>
             </ul>
-            <p>If you don't know the density, you cannot convert accurately. Our <Link to="/">main MG to ML calculator</Link> has a built-in list for common substances.</p>
+            <p>If you don't know the density, you cannot convert accurately. Our <Link to="/">main MG to ML Calculator</Link> has a built-in list for common substances.</p>
 
             <h4>Step 2: Note Down Your Mass in Milligrams (mg)</h4>
             <p>This is the value you want to convert. For our example, let's say you need to find the volume of <strong>500 mg of olive oil</strong>.</p>
@@ -67,7 +67,7 @@ const HowToConvertMgToMl: React.FC = () => {
             
             <h3>Why Not Just Use a Calculator?</h3>
             <p>
-                While using an online tool like ours is fast and eliminates human error, understanding the process is empowering. It helps you double-check your results and make informed decisions, especially when precision is key. For a look at where these conversions are most critical, see our post on the <Link to="/blog/top-uses-of-mg-to-ml-calculator">top uses in medicine and cooking</Link>.
+                While using an online tool is fast and eliminates human error, understanding the process is empowering. It helps you double-check your results and make informed decisions, especially when precision is key. For a look at where these conversions are most critical, see our post on the <Link to="/blog/top-uses-of-mg-to-ml-calculator">top uses in medicine and cooking</Link>.
             </p>
             <p>
                 By understanding the simple relationship between mass, volume, and density, you've mastered a fundamental scientific concept that has applications all around you.

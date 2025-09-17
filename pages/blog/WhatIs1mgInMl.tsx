@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const WhatIs1mgInMl: React.FC = () => {
             date="November 5, 2023"
             category="Common Questions"
             currentSlug="/blog/what-is-1mg-in-ml"
+            imageUrl="https://images.unsplash.com/photo-1551756509-8547413556a3?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 It’s one of the most frequently asked questions in the world of measurement conversions: "What is 1 mg to mL?" The answer, which might be surprising, is: <strong>it depends entirely on the substance you are measuring.</strong> There is no single, universal answer.

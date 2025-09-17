@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,9 +9,10 @@ const TopUsesCalculator: React.FC = () => {
             date="October 18, 2023"
             category="Applications"
             currentSlug="/blog/top-uses-of-mg-to-ml-calculator"
+            imageUrl="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1935&auto=format&fit=crop"
         >
             <p>
-                Converting mass to volume is more than just a math problem—it's a practical necessity in many fields. From ensuring a recipe turns out perfectly to administering safe medical doses, the ability to accurately convert milligrams (mg) to milliliters (ml) is crucial. Let's explore the most common and important applications of a reliable <Link to="/">mg to ml calculator</Link>.
+                Converting mass to volume is more than just a math problem—it's a practical necessity in many fields. From ensuring a recipe turns out perfectly to administering safe medical doses, the ability to accurately convert milligrams (mg) to milliliters (ml) is crucial. Let's explore the most common and important applications of a reliable <Link to="/">MG to ML Calculator</Link>.
             </p>
 
             <h3>1. In the Kitchen: Culinary Precision</h3>
@@ -46,7 +46,6 @@ const TopUsesCalculator: React.FC = () => {
             <ul>
                 <li><strong>Preparing Solutions:</strong> A scientist might weigh out a powdered chemical in mg and need to dissolve it in a solvent to achieve a specific final volume in ml.</li>
                 <li><strong>Calculating Molarity:</strong> Molarity (moles per liter) is a standard unit of concentration. Converting from a known mass/volume concentration like mg/ml to molarity is a frequent task. Tools like our <Link to="/mg-ml-to-molarity">molarity calculator</Link> are essential for this.</li>
-                {/* FIX: Corrected a typo in the closing tag for the Link component from </for> to </Link>. */}
                 <li><strong>Diluting Stock Solutions:</strong> Labs often create highly concentrated stock solutions and then dilute them for experiments. The famous C₁V₁=C₂V₂ equation, which our <Link to="/dilution-calculator">dilution calculator</Link> is based on, is all about the relationship between concentration and volume.</li>
             </ul>
 

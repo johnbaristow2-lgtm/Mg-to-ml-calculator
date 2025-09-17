@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BlogPostLayout from '../../components/BlogPostLayout';
 import { Link } from 'react-router-dom';
@@ -10,6 +9,7 @@ const HowManyMlIs400mg: React.FC = () => {
             date="November 3, 2023"
             category="Common Questions"
             currentSlug="/blog/how-many-ml-is-400mg"
+            imageUrl="https://images.unsplash.com/photo-1627992942852-972a45831317?q=80&w=2070&auto=format&fit=crop"
         >
             <p>
                 When you encounter the question, "How many mL is 400 mg?", you're dealing with a common conversion that bridges the gap between mass (weight) and volume (space). The answer is not fixed; it changes based on the substance you're measuring. To get the right answer, you need to know the substance's <strong>density</strong>.
